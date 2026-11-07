@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Anket Projesi</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="bg-white text-center py-4">
+                <h1 class="baslik">Evden Çalışma Anketi</h1>
+            </div>
+        </div>
+
+        <div class="sonucDiv">
+            <div class="container sonucContainer">
+                <p><span class="yuzdeSpan">%0</span> ofise dönmek istiyorsun.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="bg bg-secondary py-4">
+            <div class="container">
+                <form class="form-radio text-white">
+                    <div class="my-4">
+                        <p>1- Ofiste daha verimli çalışıyorum.</p>
+                        <div class="form-field">
+                            <input class="radio" name="q1" type="radio" value="E" checked />
+                            <label>Evet</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q1" type="radio" value="H" />
+                            <label>Hayır</label>
+                        </div>
+                    </div>
+
+                    <div class="my-4">
+                        <p>2- Ofise tam zamanlı dönmek istiyorum.</p>
+                        <div class="form-field">
+                            <input class="radio" name="q2" type="radio" value="E" checked />
+                            <label>Evet</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q2" type="radio" value="H" />
+                            <label>Hayır</label>
+                        </div>
+                    </div>
+
+                    <div class="my-4">
+                        <p>3- Evdeyken teknik sorunlar daha zor çözülüyor.</p>
+                        <div class="form-field">
+                            <input class="radio" name="q3" type="radio" value="E" checked />
+                            <label>Evet</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q3" type="radio" value="H" />
+                            <label>Hayır</label>
+                        </div>
+                    </div>
+
+                    <div class="my-4">
+                        <p>4- Evdeyken Jira'daki taskları yetiştirmekte zorlanıyorum.</p>
+                        <div class="form-field">
+                            <input class="radio" name="q4" type="radio" value="E" checked />
+                            <label>Evet</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q4" type="radio" value="H" />
+                            <label>Hayır</label>
+                        </div>
+                    </div>
+                    <div class="buttonDiv">
+                        <input type="submit" class="buton" value="Gönder"></input>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
